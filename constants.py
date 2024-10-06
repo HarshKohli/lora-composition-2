@@ -2,6 +2,9 @@
 # Date Created: 29-09-2024
 
 ADAPTERS_DIR = "adapters"
+BASE_MODEL = "mistralai/Mistral-7B-v0.1"
+MODEL_CONFIDENCE = "outputs/adapter_scores.json"
+
 
 LORA_MODULE_NAMES = [
     "predibase/magicoder",
